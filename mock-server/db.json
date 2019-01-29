@@ -1,0 +1,68 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "John",
+      "lastName": "Doe",
+      "active": true,
+      "posts": 10,
+      "messages": 50
+    },
+    {
+      "id": 2,
+      "firstName": "Jane",
+      "lastName": "Doe",
+      "active": true,
+      "posts": 2,
+      "messages": 268
+    },
+    {
+      "id": 3,
+      "firstName": "John",
+      "lastName": "Smith",
+      "active": false,
+      "posts": 700,
+      "messages": 7
+    },
+    {
+      "id": 4,
+      "firstName": "Kourtney",
+      "lastName": "Nguyen",
+      "active": true,
+      "posts": 745,
+      "messages": 7
+    },
+    {
+      "id": 5,
+      "firstName": "Janice",
+      "lastName": "Ball",
+      "active": false,
+      "posts": 8,
+      "messages": 0
+    },
+    {
+      "id": 6,
+      "firstName": "Josef",
+      "lastName": "Matthews",
+      "active": true,
+      "posts": 85,
+      "messages": 89
+    },
+    {
+      "id": 7,
+      "firstName": "Shanai",
+      "lastName": "Hendrix",
+      "active": true,
+      "posts": 789,
+      "messages": 7891
+    },
+    {
+      "id": 8,
+      "firstName": "Clay",
+      "lastName": "Chung",
+      "active": true,
+      "posts": 8,
+      "messages": 5
+    }
+  ]
+}

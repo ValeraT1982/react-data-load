@@ -1,0 +1,15 @@
+{
+  "name": "mock-server",
+  "version": "0.0.1",
+  "description": "Mock API Server",
+  "main": "app.js",
+  "scripts": {
+    "server": "nodemon app.js"
+  },
+  "author": "Valerii Tereshchenko",
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "^0.14.0",
+    "nodemon": "^1.18.4"
+  }
+}
