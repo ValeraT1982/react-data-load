@@ -6,17 +6,21 @@ function UsersWithHooks() {
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState('');
 
-    useEffect(async () => {
-        try {
-            const response = await Api.getUsers();
-            const json = await response.json();
+    useEffect(() => {
+        async function fetchData() {
+            try {
+                const response = await Api.getUsers();
+                const json = await response.json();
 
-            setData(json);
-        } catch (e) {
-            setError(e.message || 'Unexpected error');
+                setData(json);
+            } catch (e) {
+                setError(e.message || 'Unexpected error');
+            }
+
+            setLoading(false);
         }
 
-        setLoading(false);
+        fetchData();
     }, []);
 
     if (loading) {
